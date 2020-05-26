@@ -1,9 +1,6 @@
-#' Get hightlihgts from Diigo
+#' Import to Evernote all the new highlights
 #'
-#' @param  username Diigo Username
-#' @param  pwd Diigo password
-#' @param  API Diigo API
-#' @return List with diigo highlights
+#' @return Notes imported to Evernote
 #' @export
 #'
 run_batch <- function(){
