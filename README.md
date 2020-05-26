@@ -12,4 +12,5 @@ The Enex file is saved and then command line is used to import it to Evernote.
 
 Finally run_batch() function provides an easy way to iterate and import all the new highlights (it looks at the last function run date and takes only the new ones)
 
-
+To run it as easy as possible consider creating a .bat file with the command to do this automatically in R, see example
+https://twitter.com/i/status/1265158499237011461
