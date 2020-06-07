@@ -1,18 +1,13 @@
-#library(tidyverse)
-library(stringr)
-library(magrittr)
-library(lubridate)
-library(here)
-
-
 #' Import highlights into Evernote
+#'
+#' Highlights are imported to Evernote based on a blank .enex file
 #'
 #' @param  list List of highlights (get them with import_bookmarks())
 #' @param  note_num Note number from the highlight list
 #' @param exe_path Path for Evernote executable
 #' @param inbox_folder Evernote notebook where to save the notes
 #' @return Enex notes are saved and command prompt is run
-#' @importFrom magrittr "%>%"
+#' @importFrom magrittr %>%
 #' @export
 export_note_EN_enex <- function(list,
   note_num,

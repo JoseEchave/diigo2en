@@ -1,5 +1,7 @@
 #' Get hightlihgts from Diigo
 #'
+#' Highlights are taken from Diigo API
+#'
 #' @param  username Diigo Username (recommended to save username, password and API in Keyring)
 #' @param  pwd Diigo password
 #' @param  API Diigo API

@@ -1,11 +1,11 @@
 Package: diigo2en
 Type: Package
 Title: Export Diigo highlights as evernote notes
-Version: 0.1.0
+Version: 0.1.5
 Author: Jose Maria Echave Sanz
 Maintainer: Jose Maria Echave Sanz <jmechavesanz@gmail.com>
-Description: It will take yout highlights, create an Enex file for each and import them via the command prompt. (Works in Windows)
-License: MIT
+Description: It will take yout highlights, create an Enex file for each and import them via the command prompt. This approach works only on windows at the moment.
+License: License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
